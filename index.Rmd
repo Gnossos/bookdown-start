@@ -1,14 +1,19 @@
 --- 
-title: "A Minimal Bookdown Book"
-author: "Sean Kross"
+title: "Change this to the title"
+subtitle: "Change this to the subtitle or comment it out"
+author: "Marshall M. A. Feldman"
 date: "`r Sys.Date()`"
+#cover-image: image_file_path.png
 site: bookdown::bookdown_site
 documentclass: book
-bibliography: [book.bib]
-biblio-style: apalike
+bibliography: [zotero.bib]
+#Change biblio style to Chicago author-date 17th ed.
+#biblio-style: apalike
+csl: chicago-author-date.csl
 link-citations: yes
-github-repo: seankross/bookdown-start
-url: 'http\://seankross.com/bookdown-start/'
+# Change this to the book's repo
+github-repo: Gnossos/bookdown-start
+url: 'http\://Gnossos/bookdown-start/'
 description: "Everything you need (and nothing more) to start a bookdown book."
 ---
 
