@@ -1,7 +1,13 @@
 book_filename: "bookdown-start"
 chapter_name: "Chapter "
+# Change the next line to point to the book's GitHub repository.
 repo: https://github.com/seankross/bookdown-start
 output_dir: docs
-rmd_files: ["index.Rmd", "01-Introduction.Rmd", "02-Diving-In.Rmd"]
+# This is the default rmd_files:. But I want one file in the root and the rest in chapters.
+# rmd_files: ["index.Rmd", "01-Introduction.Rmd", "02-Diving-In.Rmd"]
+# These two should work, but they don't work correctly yet.
+rmd_files: ["index.Rmd"]
+rmd_subdir: ["chapters]
+# I don't know what this does.
 clean: [packages.bib, bookdown.bbl]
 new_session: yes
