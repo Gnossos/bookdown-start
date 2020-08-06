@@ -1,12 +1,17 @@
-book_filename: "bookdown-start"
+# This comes from Sean Kross' How to Start a Bookdown Book (http://seankross.com/2016/11/17/How-to-Start-a-Bookdown-Book.html).
+# Essentially, it's a GitHub repository with generic files for starting a Bookdown Book.
+# I've modified them for myself.
+book_filename: "Change_to_filename_for_book"
 chapter_name: "Chapter "
 # Change the next line to point to the book's GitHub repository.
-repo: https://github.com/seankross/bookdown-start
+repo: https://github.com/Gnossos/bookdown-start
 output_dir: docs
 # This is the default rmd_files:. But I want one file in the root and the rest in chapters.
 # rmd_files: ["index.Rmd", "01-Introduction.Rmd", "02-Diving-In.Rmd"]
 # These two should work, but they don't work correctly yet.
+# Add to the following as shown two lines above.
 rmd_files: ["index.Rmd"]
+# If the following line is active, then the book's components are in ./chapters"
 rmd_subdir: ["chapters]
 # I don't know what this does.
 clean: [packages.bib, bookdown.bbl]

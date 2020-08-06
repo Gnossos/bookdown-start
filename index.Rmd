@@ -2,6 +2,7 @@
 title: "Change this to the title"
 subtitle: "Change this to the subtitle or comment it out"
 author: "Marshall M. A. Feldman"
+# It may be a good idea to hard-code the date in order to preserve when the project started.
 date: "`r Sys.Date()`"
 #cover-image: image_file_path.png
 site: bookdown::bookdown_site
