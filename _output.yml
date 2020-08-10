@@ -20,7 +20,7 @@ bookdown::pdf_book:
   linestretch: 1.5
   # Modify to use chicago-author-date (17th ed.)
   # citation_package: natbib
-  citation_package: none
+  citation_package: biblatex
   pandoc_args: [ "--csl", "chicago-author-date.csl" ]
   keep_tex: yes
 bookdown::epub_book:
